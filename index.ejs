@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Olá! Fique a vontade.</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="/css/index.css">
+	</head>
+	<body>
+		<div class="bg-fixed">
+			<img src="images/bg<%=bgnum%>.jpg">
+		</div>
+		<div class="wrapper">
+			<div class="banner">
+				<h1>Alan Felix do N. C. César</h1>
+			</div>
+			<div class="content">
+				<section name="main">
+					<div id="main" class="main-content">
+						<span class="prof-pic"><img src="http://i1124.photobucket.com/albums/l577/alpha2222/mainpic1.jpg"></span>
+						<div class="info-text"><p>
+							Olá! Bem-vindo(a) ao meu site, este lugar é um projeto experimental e, também, meu portifólio :D<br>
+							Utilize a navegação abaixo para descobrir coisas legais!
+							</p></div>
+					</div>
+					<nav class="menu">
+						<a onclick="onNavigation(this)" class="nav-link" id="about">Sobre Mim</a>
+						<a onclick="onNavigation(this)" class="nav-link" id="gallery">Galeria</a>
+						<a onclick="onNavigation(this)" class="nav-link" id="projects">Projetos</a>
+						<a onclick="onNavigation(this)" class="nav-link" id="contact">Contato</a>
+						<a onclick="onBack()" class="nav-link nav-back back">Voltar</a>
+					</nav>
+				</section>
+				<section name="content-info">
+					<div id="content-info" class="sub-content"></div>
+				</section>
+			</div>
+			<div class="footer">
+				<p>Site feito inteiramente por Alan Felix (sim, eu).</p>
+			</div>
+		</div>
+		<footer>
+			<script src="/scripts/jquery.min.js"></script>
+			<script src="/scripts/index.js"></script>
+		</footer>
+	</body>
+</html>
